@@ -2,10 +2,10 @@
 import { ref } from 'vue'
 
 const tasks = ref([
-  { id: 1, title: 'покупки', text: 'хлеб, молоко, яйца' },
-  { id: 2, title: 'домашка', text: 'мдк, экономика' },
-  { id: 3, title: 'прогулка', text: 'погулять с подругой' },
-  { id: 4, title: 'работа', text: 'ответить клиентам' }
+  { id: 5, title: 'здоровье', text: 'записаться к врачу' },
+  { id: 6, title: 'финансы', text: 'оплатить счета' },
+  { id: 7, title: 'отдых', text: 'посмотреть новый сериал' },
+  { id: 8, title: 'развитие', text: 'изучить новый фреймворк' }
 ])
 </script>
 
@@ -30,7 +30,7 @@ const tasks = ref([
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f7fa;
+  background-color:rgb(255, 215, 215);
   padding: 20px;
 }
 
@@ -59,7 +59,7 @@ h1 {
 }
 
 .task h3 {
-  color: #3498db;
+  color:rgb(219, 52, 144);
   margin-bottom: 8px;
 }
 
